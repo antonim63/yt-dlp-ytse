@@ -10,7 +10,7 @@ from yt_dlp_plugins.extractor._ytse.protos import (
 )
 
 
-def read_and_print_vpar(file_path):
+def read_and_print_vpar(file_ath):
     with open(file_path, 'rb') as f:
         file_content = f.read()
 
